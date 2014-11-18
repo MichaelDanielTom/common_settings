@@ -101,7 +101,7 @@ c.InteractiveShellApp.extensions = ['autoreload']
 # c.TerminalIPythonApp.log_level = 30
 
 # lines of code to run at IPython startup.
-c.TerminalIPythonApp.exec_lines = ['%autoreload 2']
+c.TerminalIPythonApp.exec_lines = ['%autoreload 2', 'import django;django.setup()']
 
 # Suppress warning messages about legacy config files
 # c.TerminalIPythonApp.ignore_old_config = False
