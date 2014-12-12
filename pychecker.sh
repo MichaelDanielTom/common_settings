@@ -1,5 +1,5 @@
 #!/bin/bash
-export BIN=$VIRTUAL_ENV/bin
+export BIN=/Users/tom/development/virtualenvs/marketplace_venv/bin/
 for FILE in $*
 do
     $BIN/pyflakes $FILE
